@@ -1,0 +1,15 @@
+guide for connecting the LCD to the Arduino Uno through jumper wires:
+
+first, make sure that you're using the right LCD which is the 16x2 (I2C).
+type: PCF8574-based
+address: 39 (0x27)
+
+let's connect the pins!
+
+LCD --> Arduino 
+GND > GND
+VCC > 5V
+SDA > A4
+SCL > A5
+
+run that simulation! 
